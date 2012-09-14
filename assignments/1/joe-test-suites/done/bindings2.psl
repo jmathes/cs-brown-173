@@ -1,0 +1,8 @@
+# bindings2 binds at least most function identifiers declared by deffun to
+# "0" rather than to a function
+# It also does some weird stuff with defvar but this is enough
+deffun a()
+    ""
+in {
+    a;
+}

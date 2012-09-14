@@ -1,0 +1,6 @@
+# loops3 returns some kind of function from foor loops
+# Calling it gets 'false' called as a function
+for(false;false;false) {
+    ""
+}
+

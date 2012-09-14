@@ -1,0 +1,4 @@
+# bindings4 treats ++x like x++
+defvar x = 5 in {
+  ++x
+}

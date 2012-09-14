@@ -1,0 +1,9 @@
+# THe interpereter takes long enough to run this after it's loaded into memory
+# that it's trivial to change it on the filesystem, giving the bad interpereters
+# a wrong file
+
+defvar x=0 in {
+    for(x=0; <(x, 10000); x++) {
+        "s"
+    }
+}

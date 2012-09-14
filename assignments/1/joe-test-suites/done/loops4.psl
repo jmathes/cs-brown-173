@@ -1,0 +1,14 @@
+# loops4 seems like it chokes on every for loop
+# Looks like there's an unintended bug here. It looks like for gets desugared
+# into an if at some point, and we don't pass all 3 arguments to it
+# CIf: arity mismatch;
+#  the expected number of arguments does not match the given number
+#   expected: 3
+#   given: 2
+#   arguments...:
+#    (CFalse)
+#    (CLet 'forthunk23 (CNum 0) (CLet 'forinit22 (CFalse) (CSeq (CSet! 'forthunk23 (CFunc '(forbody24) (CIf (CFalse) (CLet 'fo...
+for(false;false;false) {
+    ""
+}
+

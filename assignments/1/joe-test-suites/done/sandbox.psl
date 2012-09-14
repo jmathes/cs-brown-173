@@ -1,0 +1,29 @@
+# defvar f = lambda () {0} in
+# defvar bignum = 1000 in
+# defvar o1 = {
+#     a: 1,
+#     b: f,
+# } in
+# defvar o2 = {
+#     a: 1,
+#     b: f,
+# } in defvar two = 2 in {
+#     defvar misterx = 3 in
+#         f
+#     o1 = (o1.g = lambda () bignum);
+
+#     o2 = (o2.g = o1.g);
+#     # defvar b = lambda () two;
+#     print(==(o1, o2));
+
+# }
+
+# objects2 doesn't error when an object has multiple fields with the same
+# name. At lookup it just happily returns the first one
+
+
+defvar dbllambda = lambda () { #env1: nothing defined
+    { f: lambda () {g}}
+    } in
+        defvar g = 3 in { #env2:  dbllambda defined
+            dbllambda().f()}    #env3: g defined

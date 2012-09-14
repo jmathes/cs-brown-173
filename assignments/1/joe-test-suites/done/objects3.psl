@@ -1,0 +1,8 @@
+# objects3 can't handle @ notation. Based on the error ("Non-object lookup"),
+# my guess is the desugaring layer translates into dot-style lookup, but leaves
+# a non-object to the left of the dot - like maybe the result of the lookup
+({
+  f: lambda(self) {
+    ""
+  }
+})@f()

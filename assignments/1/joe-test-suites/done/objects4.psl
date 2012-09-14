@@ -1,0 +1,6 @@
+# objects4 returns the first field instead when its last field is accessed
+({
+  a: "a",
+  b: "b",
+}).b
+

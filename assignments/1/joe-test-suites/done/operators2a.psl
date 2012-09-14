@@ -1,0 +1,6 @@
+# operators2a returns the wrong type or value from ++ and -- operations
+# It's hard to get more detail because the namespace collision prevents
+# running operators2a in --single mode
+defvar x = 5 in {
+  x++;
+}

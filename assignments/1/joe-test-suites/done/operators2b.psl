@@ -1,0 +1,4 @@
+# operators2 adds in the wrong direction. This is safe when addition is
+# commutative, like with numbers, but fails when addition is string
+# concatenation
++("a","z")

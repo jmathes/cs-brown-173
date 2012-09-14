@@ -1,0 +1,7 @@
+# objects2 doesn't error when an object has multiple fields with the same
+# name. At lookup it just happily returns the first one
+({
+  a: "1",
+  a: "2",
+}).a
+

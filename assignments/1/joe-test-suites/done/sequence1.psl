@@ -1,0 +1,5 @@
+defvar x = 0 in {
+  for(x = 9; false; x = +(x, 1)) {
+    1
+  }
+}

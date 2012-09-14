@@ -1,0 +1,5 @@
+alias s="/Users/joe/dev/cs-brown-173/assignments/1/skipsteps.py sandbox.psl"
+alias single="/Users/joe/dev/cs-brown-173/assignments/1/osx-dist/bin/assignment1-osx --single"
+alias skipsteps="/Users/joe/dev/cs-brown-173/assignments/1/skipsteps.py"
+alias psl="/Users/joe/dev/cs-brown-173/assignments/1/psl"
+alias clean="find . -name '*.error' -delete ; find . -name '*.expected' -delete"

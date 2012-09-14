@@ -1,0 +1,253 @@
+# defvar x = 1 in
+# defvar obj = {
+#     x: x
+# } in {
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+#     ++x;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+#     obj.x = x;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+
+#     obj.x += 1;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+
+# }
+
+
+
+==((lambda(){1}), (lambda(){1}))
++----------------------------------------------------------------------------------------------------| operators1:| === Expected stdout ===| true| | === Actual stdout ===| false| | === Expected stderr ===| | === Actual stderr ===| | # defvar x = 1 in
+# defvar obj = {
+#     x: x
+# } in {
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+#     ++x;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+#     obj.x = x;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+
+#     obj.x += 1;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+
+# }
+
+
+
+==((lambda(){1}), (lambda(){1}))
++----------------------------------------------------------------------------------------------------| operators1:| === Expected stdout ===| true| | === Actual stdout ===| false| | === Expected stderr ===| | === Actual stderr ===| | # defvar x = 1 in
+# defvar obj = {
+#     x: x
+# } in {
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+#     ++x;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+#     obj.x = x;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+
+#     obj.x += 1;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+
+# }
+
+
+
+==((lambda(){1}), (lambda(){1}))
++----------------------------------------------------------------------------------------------------| operators1:| === Expected stdout ===| true| | === Actual stdout ===| false| | === Expected stderr ===| | === Actual stderr ===| | # defvar x = 1 in
+# defvar obj = {
+#     x: x
+# } in {
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+#     ++x;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+#     obj.x = x;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+
+#     obj.x += 1;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+
+# }
+
+
+
+==((lambda(){1}), (lambda(){1}))
++----------------------------------------------------------------------------------------------------| operators1:| === Expected stdout ===| true| | === Actual stdout ===| false| | === Expected stderr ===| | === Actual stderr ===| | # defvar x = 1 in
+# defvar obj = {
+#     x: x
+# } in {
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+#     ++x;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+#     obj.x = x;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+
+#     obj.x += 1;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+
+# }
+
+
+
+==((lambda(){1}), (lambda(){1}))
++----------------------------------------------------------------------------------------------------| operators1:| === Expected stdout ===| true| | === Actual stdout ===| false| | === Expected stderr ===| | === Actual stderr ===| | # defvar x = 1 in
+# defvar obj = {
+#     x: x
+# } in {
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+#     ++x;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+#     obj.x = x;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+
+#     obj.x += 1;
+
+#     print("x=");
+#     print(x);
+#     print(", obj.x=");
+#     print(obj.x);
+#     print("\n");
+
+
+# }
+
+
+
+==((lambda(){1}), (lambda(){1}))
++----------------------------------------------------------------------------------------------------| operators1:| === Expected stdout ===| true| | === Actual stdout ===| false| | === Expected stderr ===| | === Actual stderr ===| | 

@@ -1,0 +1,5 @@
+defvar x = 10 in {
+  while(>(x,0)) {
+    ""
+  }
+}

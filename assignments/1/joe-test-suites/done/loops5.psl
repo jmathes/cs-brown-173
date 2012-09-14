@@ -1,0 +1,7 @@
+# loops5 desugars for loops wrong
+# If the initial condition is false and the loop is never entered, they
+# return 'false' (probably as the last value of the middle expression (the
+# comparison)), but it should be the value of the first expression (the
+# initializer)
+for(1; false; 2) { 3 }
+

@@ -1,0 +1,4 @@
+# At the end of the program, Sequence2 returns the first value
+# ever returned anywhere in the program instead of the last one
+# also some other weird stuff i didn't nail down
+1;2;

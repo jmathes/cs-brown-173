@@ -1,0 +1,5 @@
+# loops1 yields true instead of false when the initial condition is false
+while(false) {
+    ""
+}
+

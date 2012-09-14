@@ -1,0 +1,8 @@
+# functions2 reverses the order of the arguments passed to lambdas
+# (but not deffuns)
+defvar f = lambda(x, y, z) {
+  +(x, y, z)
+}
+in {
+  f("a", "b", "c");
+}

@@ -1,0 +1,5 @@
+# if-then-else3 does the second branch of an if-then-else every time
+if true then
+    "wanted"
+else
+    "unwanted"

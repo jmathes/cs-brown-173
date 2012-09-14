@@ -1,0 +1,9 @@
+# bindings 3 doesn't check arity or bind values passed into functions
+
+deffun a(b)
+    b
+in {
+    a(4)
+}
+
+

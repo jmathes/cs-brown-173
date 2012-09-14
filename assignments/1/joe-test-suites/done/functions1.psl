@@ -1,0 +1,10 @@
+# functions1 doesn't check arity; it just leaves identifiers unbound
+# if no value was passed in
+
+deffun f(a)
+    a
+in {
+    f()
+}
+
+

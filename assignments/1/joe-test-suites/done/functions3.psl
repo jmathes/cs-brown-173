@@ -1,0 +1,7 @@
+# functions3 doesn't expose function identifiers within the functions
+# themselves (it doesn't support recursion)
+deffun f(n)
+  if ==(n, 1) then f(0) else "recurred"
+in {
+  f(1)
+}

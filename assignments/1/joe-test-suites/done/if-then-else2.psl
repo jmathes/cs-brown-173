@@ -1,0 +1,6 @@
+# if-then-else2 treats 0 like "false"; spec says anything other than
+# literal false works like true
+if 0 then
+    "unwanted"
+else
+    "wanted"

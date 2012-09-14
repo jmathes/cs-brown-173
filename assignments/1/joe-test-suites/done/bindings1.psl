@@ -1,0 +1,7 @@
+# bindings1 doesn't leave the names of non-anonymous objects unbound within
+# their bodies. It changes them to 0
+defvar o = {
+  v: o
+} in {
+  o.v;
+}

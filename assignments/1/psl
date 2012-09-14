@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/Users/joe/dev/cs-brown-173/assignments/1/osx-dist/bin/assignment1-osx --interp < $1

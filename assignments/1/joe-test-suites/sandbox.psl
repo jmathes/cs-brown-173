@@ -1,0 +1,9 @@
+# Don't have time to figure out how this works!
+
+defvar i=false in {
+    if ==(
+          if (i = ==(i, i)) then i else i,
+          if (i = ==(i, i)) then i else i
+         )
+    then i else i
+}

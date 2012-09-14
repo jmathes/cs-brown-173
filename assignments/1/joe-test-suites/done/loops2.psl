@@ -1,0 +1,7 @@
+# loops2 seems like it doesn't run for loops
+# having trouble digging further
+defvar x = 0 in {
+  for(x = 0; <(x, 1); x = +(x, 1)) {
+    1
+  }
+}

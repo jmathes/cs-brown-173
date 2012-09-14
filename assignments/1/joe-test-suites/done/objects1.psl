@@ -1,0 +1,6 @@
+# Whatever's causing this is subtle.
+# The @[] lookup should fail from having a non-string index,
+# but instead Non-object 0 to the left of the @ fails first
+
+
+0@[1]()

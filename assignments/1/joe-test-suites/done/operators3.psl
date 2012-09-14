@@ -1,0 +1,4 @@
+# operators3 attempts type coersion between ints and str for operations
+# that support both. This is against spec
+print(+("a", 2));
++(1,"a");
